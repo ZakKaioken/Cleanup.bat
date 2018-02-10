@@ -78,7 +78,6 @@ mkdir %vids%
 echo Moving videos into the folder.
 move *.mp4 %vids%
 move *.mkv %vids%
-move *.mpg %vids%
 move *.avi %vids%
 move *.wmv %vids%
 move *.mov %vids%
@@ -186,5 +185,4 @@ echo.
 echo done cleaning up, I dont know if i got everything but your stuff is now in the %cleandir% folder.
 start %cleandir%
 echo.
-
 pause
