@@ -1,6 +1,7 @@
 @echo off
 set cleandir=.\cleandir
 set text=%cleandir%\text
+set fonts=%text%\fonts
 set pics=%cleandir%\Pictures
 set vids=%cleandir%\Videos
 set audio=%cleandir%\Audio
@@ -20,6 +21,12 @@ echo Moving text into the folder.
 move *.txt %text%
 move *.rtf %text%
 move *.pdf %text%
+
+:fonts
+echo Creating a text font folder at %font%
+mkdir %font%
+echo moving fonts into the folder.
+move *.ttf %fonts%
 
 :config
 echo Creating config folder at %config%.
