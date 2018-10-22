@@ -1,3 +1,10 @@
+echo This batch script could be considered dangerous.
+echo only run this in folders where files do not depend on eachother.
+echo this script depends on the folder being occupied by other files
+
+echo proceed with caution.
+pause
+
 @echo off
 set cleandir=.\cleandir
 set text=%cleandir%\text
