@@ -127,10 +127,12 @@ IF NOT EXIST .\config.sc (
     move *.zip %Archives%
     move *.rar %Archives%
 echo.
-echo done cleaning up, I dont know if i got everything but your stuff is now in the %cleandir% folder.
+
 if openwhendone==y (
     start %Assets%
+    exit
     )
+echo Hey, %name%! I'm done cleaning up, I dont know if i got everything but your stuff is now in the %Assets% folder.
 echo.
 pause
     
