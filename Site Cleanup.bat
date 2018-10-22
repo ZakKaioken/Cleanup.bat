@@ -126,7 +126,7 @@ IF NOT EXIST .\config.sc (
     move *.jar %Executables%
     move *.zip %Archives%
     move *.rar %Archives%
-echo.
+echo m
 
 if openwhendone==y (
     start %Assets%
@@ -134,5 +134,4 @@ if openwhendone==y (
     )
 echo Hey, %name%! I'm done cleaning up, I dont know if i got everything but your stuff is now in the %Assets% folder.
 echo.
-pause
-    
+pause    
